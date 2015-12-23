@@ -12,9 +12,12 @@ provisioner:
 
 platforms:
   - name: centos-6.7
-  - name: ubuntu-12.04
 suites:
   - name: default
+    run_list:
+      - recipe[second_cookbook::default]
+    attributes:
+  - name: server
     run_list:
       - recipe[second_cookbook::default]
     attributes:

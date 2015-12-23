@@ -1,5 +1,4 @@
-#
-# Cookbook Name:: second_cookbook
+ookbook Name:: second_cookbook
 # Recipe:: default
 #
 # Copyright (c) 2015 The Authors, All Rights Reserved.
